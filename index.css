@@ -76,7 +76,35 @@ header a{
 header a:hover{
     color: rgb(45, 109, 50);
 }
-
+#mysterious-text {
+    background-color: #09160e; /* Color de fondo misterioso */
+    color: #ffffff; /* Color de texto misterioso */
+    padding: 20px; /* Espaciado interno */
+    font-size: 18px; /* Tamaño de fuente */
+    font-style: italic; /* Estilo de fuente itálica */
+  }
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
 #hero{
     display: flex;
     align-items: center;
